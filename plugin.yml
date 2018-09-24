@@ -1,0 +1,27 @@
+name: Sethome
+version: 0.1
+api:
+- 3.0.6
+- 4.0.0
+author: AlicanCopur
+main: AlicanCopur\Main
+
+commands:
+  sethome:
+    description: Ev belirle
+  home:
+    description: Evine git
+  sethome2:
+    description: Ev belirle
+  home2:
+    description: Evine git
+  sethome3:
+    description: Ev belirle
+  home3:
+    description: Evine git
+    
+permissions:
+  sethome.2:
+    default: op
+  sethome.3:
+    default: op
