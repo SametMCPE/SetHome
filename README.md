@@ -1,7 +1,8 @@
-# SetHome, Fast and Clean!
+# SetHome - Fast and Clean!
 
-SetHome plugin for PocketMine.
-
-Commands:
-
-/sethome , /home
+### Commands:
+> /sethome
+> /home
+### Permissions:
+> -none-
+---
