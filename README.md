@@ -1,8 +1,8 @@
 # SetHome - Fast and Clean!
 
 ### Commands:
-> /sethome
-> /home
+> /evolustur
+> /ev
 ### Permissions:
 > -none-
 ---
