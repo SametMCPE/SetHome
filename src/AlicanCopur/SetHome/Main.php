@@ -43,7 +43,7 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $oyuncu, Command $cmd, string $label, array $args):bool{
     	$isim = $oyuncu->getName();
     	$o = $oyuncu;
-		if($cmd->getName() == "sethome"){
+		if($cmd->getName() == "evolustur"){
 			$x = $oyuncu->getX();
 			$y = $oyuncu->getY();
 			$z = $oyuncu->getZ();
@@ -57,7 +57,7 @@ class Main extends PluginBase implements Listener {
 			$oyuncu->sendMessage("§7» §aEvin X: $x Y: $y Z: $z kordinatlarına belirlendi!");
 			$cfg->save();
 		}
-		if($cmd->getName() == "home"){
+		if($cmd->getName() == "ev"){
 			$ac = new Config($this->getDataFolder().$isim.".yml", Config::YAML);
 			$ev = $ac->get("Ev");
 			if($ev == "Yok"){
