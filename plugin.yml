@@ -1,13 +1,12 @@
-name: Sethome
-version: Stable
+name: Ev
+version: 0.1
 api:
-- 3.0.6
-- 4.0.0
+- 3.8.0
 author: AlicanCopur
 main: AlicanCopur\SetHome\Main
 
 commands:
-  sethome:
+  evolustur:
     description: Ev belirle
-  home:
+  ev:
     description: Evine git
